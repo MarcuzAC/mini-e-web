@@ -49,12 +49,12 @@
                         <a class="dropdown-item" href="includes/categories/groceries.php">Groceries</a>
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="customers/add_to_cart.php">Cart</a></li>
+                <li class="nav-item"><a class="nav-link" href="cart.php">Cart</a></li>
                 <?php if ($isLoggedIn) { ?>
                     <li class="nav-item"><a class="nav-link" href="my_account.php">My Account</a></li>
                 <?php } ?>
                 <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Shipping</a></li>
+                <li class="nav-item"><a class="nav-link" href="includes/shipping.php">Shipping</a></li>
             </ul>
         </div>
     </nav>
