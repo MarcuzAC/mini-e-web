@@ -7,39 +7,7 @@
     <!-- Add your head content here -->
     <title>Shoppify</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        .header-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #333;
-            padding: 10px 0;
-        }
-
-        .header-container .navbar {
-            margin-bottom: 0;
-        }
-
-        .header-container .navbar-brand {
-            color: #fff;
-            font-weight: bold;
-        }
-
-        .header-container .nav-link {
-            color: #fff;
-        }
-
-        .page-content {
-            margin-top: 60px; /* Add margin to push the content down below the fixed header */
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
